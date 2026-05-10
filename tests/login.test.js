@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const URL = 'https://www.saucedemo.com';
+const URL = 'https://www.saucedemo.com';;;
 
 // ─── TC01: Successful login ──────────────────────────────────────────────────
 test('TC01 - Successful login with valid credentials', async ({ page }) => {
